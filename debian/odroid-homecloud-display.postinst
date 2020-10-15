@@ -1,0 +1,3 @@
+#!/bin/sh
+
+pip3 install luma.core luma.oled luma.lcd
