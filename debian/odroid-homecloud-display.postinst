@@ -1,5 +1,9 @@
 #!/bin/sh
 
+# Force specific version of dependency. This one can be built under groovy/gcc10.
+pip3 install RPi.GPIO==0.7.1a2
+
+# Install luma stuff which depends on RPI.GPIO.
 pip3 install luma.core luma.oled luma.lcd
 
 #DEBHELPER#
