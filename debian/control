@@ -8,8 +8,7 @@ Build-Depends: debhelper (>= 9),
 	python3-all,
 	python3-setuptools,
 	python3-stdeb,
-	dh-python,
-	dh-systemd
+	dh-python
 Standards-Version: 3.9.5
 X-Python3-Version: >= 3.7
 
