@@ -1,3 +1,9 @@
+odroid-homecloud (0.2) stable; urgency=medium
+
+  * Add to set I2C bus number and display orientation
+
+ -- Dongjin Kim <tobetter@gmail.com>  Mon, 27 Nov 2023 18:32:00 +0900
+
 odroid-homecloud (0.1) stable; urgency=medium
 
   * Initial release.
