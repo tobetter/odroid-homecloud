@@ -3,6 +3,7 @@ Description=Display daemon for ODROID Homecloud
 
 [Service]
 Type=simple
+EnvironmentFile=/etc/default/odroid-homecloud
 ExecStart=/usr/bin/odroid_homecloud_display
 
 [Install]
