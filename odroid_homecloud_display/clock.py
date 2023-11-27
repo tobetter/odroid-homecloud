@@ -16,10 +16,14 @@ from time import sleep
 from PIL import ImageFont, ImageDraw, Image
 import time
 import datetime
+import os
 
-serial = i2c(port=0, address=0x3C)
+port = int(os.environ.get('HOMECLOUD_DISPLAY_PORT', "0"))
+rotate = int(os.environ.get('HOMECLOUD_DISPLAY_ROTATE', "2"))
+
+serial = i2c(port=port, address=0x3C)
 # device = sh1106(serial, rotate=0)
-device = ssd1306(serial, rotate=2)
+device = ssd1306(serial, rotate=rotate)
 
 def main():
     today_last_time = "Unknown"
