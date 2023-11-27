@@ -2,4 +2,11 @@
 
 pip3 install luma.core luma.oled luma.lcd
 
+if [ -f /etc/default/odroid-homecloud ]; then
+	cat>/etc/default/odroid-homecloud<<__EOF
+HOMECLOUD_DISPLAY_PORT=0
+HOMECLOUD_DISPLAY_ROTATE=2
+__EOF
+fi
+
 #DEBHELPER#
