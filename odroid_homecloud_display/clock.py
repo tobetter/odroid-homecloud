@@ -19,9 +19,10 @@ import datetime
 import os
 
 port = int(os.environ.get('HOMECLOUD_DISPLAY_PORT', "0"))
+address = int(os.environ.get('HOMECLOUD_DISPLAY_ADDRESS', "0x3c"), 16)
 rotate = int(os.environ.get('HOMECLOUD_DISPLAY_ROTATE', "2"))
 
-serial = i2c(port=port, address=0x3C)
+serial = i2c(port=port, address=address)
 # device = sh1106(serial, rotate=0)
 device = ssd1306(serial, rotate=rotate)
 

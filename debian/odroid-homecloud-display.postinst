@@ -6,6 +6,7 @@ if [ ! -f /etc/default/odroid-homecloud ]; then
 	cat>/etc/default/odroid-homecloud<<__EOF
 HOMECLOUD_DISPLAY_PORT=0
 HOMECLOUD_DISPLAY_ROTATE=2
+HOMECLOUD_DISPLAY_ADDRESS=0x3c
 __EOF
 fi
 
