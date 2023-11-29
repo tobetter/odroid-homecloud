@@ -1,3 +1,10 @@
+odroid-homecloud (0.3) stable; urgency=medium
+
+  * Add to set I2C slave address
+  * Add new OLED chipset SSD1309
+
+ -- Dongjin Kim <tobetter@gmail.com>  Wed, 29 Nov 2023 04:45:45 +0000
+
 odroid-homecloud (0.2) stable; urgency=medium
 
   * Add to set I2C bus number and display orientation
