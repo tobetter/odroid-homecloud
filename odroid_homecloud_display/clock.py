@@ -11,7 +11,7 @@ An analog clockface with date & time.
 
 from luma.core.interface.serial import i2c
 from luma.core.render import canvas
-from luma.oled.device import ssd1306, ssd1325, ssd1331, sh1106
+from luma.oled.device import ssd1306, ssd1309, ssd1325, ssd1331, sh1106
 from time import sleep
 from PIL import ImageFont, ImageDraw, Image
 import time
