@@ -3,8 +3,6 @@ Section: python
 Priority: extra
 Maintainer: Dongjin Kim <tobetter@gmail.com>
 Build-Depends: debhelper (>= 9),
-	python-all,
-	python-setuptools,
 	python3-all,
 	python3-setuptools,
 	python3-stdeb,
